@@ -16,3 +16,10 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('home');
 });
+
+Route::get('/contact', function () {
+    $data = [
+        'user' => ['name' => 'Marco', 'surname' => 'Bianchi']
+    ];
+    return view('contact', $data);
+});
