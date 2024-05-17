@@ -4,7 +4,7 @@
 
 @section('content')
 <main>
-    <h1>Home page</h1>
+    <h1 class="text-uppercase text-center my-5">hello world!</h1>
 </main>
 
 @endsection
